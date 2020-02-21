@@ -10,7 +10,7 @@ const fi = (function() {
 
     map: function(collection, callback) {
         let newArr = [];
-        for(const i=0 ; i<newArr.length ; i++){
+        for(let i=0 ; i<newArr.length ; i++){
           newArr.push(callback(collection[i]));
         }
         return newArr;
