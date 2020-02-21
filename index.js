@@ -17,9 +17,10 @@ const fi = (function() {
     },
 
     reduce: function(collection, callback, acc) {
-      acc === undefined ? acc = 
+      let i=1; 
+      acc === undefined && (acc = collection[0], i=1)
       
-        for(let i=0 ; i<newArr.length ; i++){
+        for(i ; i<newArr.length ; i++){
           newArr.push(callback(collection[i]));
         }
         return acc;
