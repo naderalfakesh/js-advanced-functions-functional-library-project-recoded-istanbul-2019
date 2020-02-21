@@ -21,7 +21,7 @@ const fi = (function() {
     },
 
     functions: function() {
-      return ["nader","nana"]
+      return ["libraryMethod","each","map","reduce"]
     },
 
 
