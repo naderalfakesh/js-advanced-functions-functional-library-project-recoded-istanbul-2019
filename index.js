@@ -17,12 +17,12 @@ const fi = (function() {
     },
 
     reduce: function(collection, callback, acc) {
-      return 0;
+      acc === undefined ? acc = 
       
         for(let i=0 ; i<newArr.length ; i++){
           newArr.push(callback(collection[i]));
         }
-        return newArr;
+        return acc;
     },
 
     functions: function() {
