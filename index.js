@@ -18,7 +18,7 @@ const fi = (function() {
 
     reduce: function(collection, callback, acc) {
       return 0;
-      let newArr = [];
+      
         for(let i=0 ; i<newArr.length ; i++){
           newArr.push(callback(collection[i]));
         }
