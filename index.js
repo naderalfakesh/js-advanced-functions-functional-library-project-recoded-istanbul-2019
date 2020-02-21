@@ -21,7 +21,7 @@ const fi = (function() {
       acc === undefined && (acc = collection[0], i=1)
       
         for(i ; i<newArr.length ; i++){
-          newArr.push(callback(collection[i]));
+          acc = callback(acc,collection[i]);
         }
         return acc;
     },
